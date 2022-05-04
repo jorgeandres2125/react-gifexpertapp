@@ -30,6 +30,5 @@ describe('Pruebas en <GifGridItem/>', () => {
         const className = div.prop('className');
         
         expect( className.includes('animate__fadeIn')).toBe(true);
-        console.log('finish test');
     });
 });
